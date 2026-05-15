@@ -27,3 +27,63 @@ footer p{
     padding: 20px;
     text-align: center;
 }
+.grid{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* TARJETAS */
+.card{
+    width: 300px;
+    height: 270px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+/* cuadros */
+.info1{
+    background-image: url("");
+}
+
+.info2{
+    background-image: url("");
+}
+
+.info3{
+    background-image: url("");
+}
+.info1 button{
+     background-color:transparent;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+ .info2 button{
+     background-color:transparent;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    }
+    .info3 button{
+     background-color:transparent;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    }
